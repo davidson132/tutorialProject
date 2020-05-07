@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="activity2"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut2"
+        android:shortcutLongLabel="@string/shortcut2long"
+        android:shortcutDisabledMessage="@string/disabledmessage1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.tutorialproject"
+            android:targetClass="com.example.tutorialproject.Activity2" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+    </shortcut>
+<!-- Specify more shortcuts here. -->
+
+    <shortcut
+        android:shortcutId="activity3"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut3"
+        android:shortcutLongLabel="@string/shortcut3long"
+        android:shortcutDisabledMessage="@string/disabledmessage1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.tutorialproject"
+            android:targetClass="com.example.tutorialproject.Activity3" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+    </shortcut>
+</shortcuts>

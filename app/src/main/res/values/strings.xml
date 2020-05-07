@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">tutorialProject</string>
+    <string name="button1">Goodbye Cruel World!</string>
+    <string name="button2">WAT</string>
+    <string name="firstText">Hello New World!</string>
+    <string name="lameText">okay wat</string>
+    <string name="activity2_text1">Activity 2</string>
+    <string name="thirdButton">Third Activity</string>
+    <string name="shortcut2">Activity 2</string>
+    <string name="shortcut2long">Long message for activity 2 shortcut</string>
+    <string name="disabledmessage1">Disabled bro</string>
+    <string name="shortcut3">Activity 3</string>
+    <string name="shortcut3long">Long message for activity 3 shortcut</string>
+</resources>
